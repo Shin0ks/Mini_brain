@@ -1,5 +1,4 @@
 
-
 #Bibliotecas
 import base64
 from IPython.display import Javascript, display, Audio
