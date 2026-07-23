@@ -24,7 +24,7 @@ def capturar_voz():
         recognition.start();
     });
     """
-    print("🎤 Ouvindo... Fale algo no seu microfone!")
+    print("Ouvindo... Fale algo no seu microfone!")
     try:
         texto = output.eval_js(js_code)
         return texto
